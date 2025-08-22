@@ -2,14 +2,14 @@
 
 A complete proof-of-concept notification system for Insyd, the social platform for the Architecture Industry.
 
-## 🏗️ Architecture Overview
+## 🏗 Architecture Overview
 
 This POC demonstrates a scalable notification system with:
 - **Frontend**: React + TypeScript (runs in Lovable)
 - **Backend**: Node.js + Express + MongoDB (separate setup)
 - **Real-time**: Polling-based notifications with queue processing
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 insyd-notification-poc/
@@ -26,7 +26,7 @@ insyd-notification-poc/
     └── components/           # UI components
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Frontend (Current - Lovable)
 The frontend is already running! It shows:
@@ -64,7 +64,7 @@ The frontend is already running! It shows:
    curl http://localhost:5000/api/notifications/user2
    ```
 
-## 🎯 Key Features Demonstrated
+##  Key Features Demonstrated
 
 - **Event Processing**: Real-time event creation and notification generation
 - **Smart Routing**: Notifications sent to relevant users based on relationships
@@ -72,7 +72,7 @@ The frontend is already running! It shows:
 - **Scalable Design**: Queue-based processing for high throughput
 - **Beautiful UI**: Modern interface with real-time updates
 
-## 📊 System Design
+##  System Design
 
 See `SYSTEM_DESIGN.md` for complete technical specifications including:
 - Component architecture
@@ -81,14 +81,14 @@ See `SYSTEM_DESIGN.md` for complete technical specifications including:
 - Performance considerations
 - API documentation
 
-## 🧪 Sample Data
+##  Sample Data
 
 The backend automatically seeds with sample users and notifications for testing:
 - `user1` (alex_architect) - 3 notifications
 - `user2` (priya_designer) - 2 notifications  
 - Ready-to-test API endpoints
 
-## 🔄 Real-time Flow
+##  Real-time Flow
 
 1. **User Action** → Event created via API
 2. **Event Processor** → Determines notification recipients  
@@ -98,4 +98,5 @@ The backend automatically seeds with sample users and notifications for testing:
 
 ---
 
-**Built for Insyd** - Connecting the Architecture Industry 🏗️
+**Built for Insyd** - Connecting the Architecture Industry 
+**Project Link** - [https://smart-notifications.netlify.app/]
